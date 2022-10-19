@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo -e "\033[42;37m --- check commit msg! --- \033[0m" 
+npx commitlint --edit

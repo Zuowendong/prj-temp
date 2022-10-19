@@ -1,0 +1,5 @@
+node_modules
+typings
+pnpm-lock.yaml
+packages/pc/dist
+*.d.ts
